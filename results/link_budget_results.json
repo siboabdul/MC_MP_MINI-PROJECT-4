@@ -1,0 +1,46 @@
+{
+  "scenario": {
+    "distance_km": 8.0,
+    "pl_d0_db": 91.5,
+    "path_loss_exponent": 3.5,
+    "battery_mah": 19000.0,
+    "target_years": 5.0,
+    "interval_s": 1800
+  },
+  "path_loss_db": 123.11,
+  "rows": [
+    {
+      "technology": "NB-IoT",
+      "tx_dbm": 23.0,
+      "rx_dbm": -129.0,
+      "mcl_db": 152.0,
+      "path_loss_db": 123.11,
+      "margin_db": 28.89,
+      "coverage_ok": true,
+      "battery_years": 14.29,
+      "battery_ok": true
+    },
+    {
+      "technology": "LTE-M (CE Mode B)",
+      "tx_dbm": 23.0,
+      "rx_dbm": -125.0,
+      "mcl_db": 148.0,
+      "path_loss_db": 123.11,
+      "margin_db": 24.89,
+      "coverage_ok": true,
+      "battery_years": 4.24,
+      "battery_ok": false
+    },
+    {
+      "technology": "LoRaWAN SF12",
+      "tx_dbm": 14.0,
+      "rx_dbm": -137.0,
+      "mcl_db": 151.0,
+      "path_loss_db": 123.11,
+      "margin_db": 27.89,
+      "coverage_ok": true,
+      "battery_years": 56.79,
+      "battery_ok": true
+    }
+  ]
+}

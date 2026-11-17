@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.pid
+logs/*.log
+logs/*.jsonl
